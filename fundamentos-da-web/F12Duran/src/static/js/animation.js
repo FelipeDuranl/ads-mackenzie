@@ -1,4 +1,5 @@
-var body = document.body;
+var body = document.getElementById('back');
+console.log(body)
 var tilted = false;
 var toggleTilt = function () {
     tilted = !tilted;
